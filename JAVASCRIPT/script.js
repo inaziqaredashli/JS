@@ -11,8 +11,8 @@ const input = document.querySelector('#input')
             readInput()
             if(x<10) {
             x = +input.value
-            x += step
-            setValue(x)}
+                    x += step
+                    setValue(x)}
 
         }
         function decrease(step) {
