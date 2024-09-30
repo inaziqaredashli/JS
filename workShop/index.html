@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="vuroodi" type="text">
+    <button  onclick="register()">register</button>
+    <div class="screen"></div>
+    <script>
+        const screen = document.querySelector('.screen')
+        const input = document.querySelector('#vuroodi')
+        let currentStudent ='' , newStudents = ''
+        function register() {
+            newStudents = input.value
+currentStudent += newStudents + '<br>'
+screen.innerHTML = currentStudent
+input.value = ""
+
+        }
+
+    </script>
+</body>
+</html>
