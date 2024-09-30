@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <input id="vuroodi" type ="text"> 
+   <button onclick="addition()">+</button>
+   <div class="screen"></div>
+   <script>
+    const screen = document.querySelector('.screen')
+    const input = document.querySelector('#vuroodi')
+    let listKharidAkhir = '' , listJadid = '' 
+    function addition() {
+        listJadid = input.value
+        listKharidAkhir +=listJadid + '<br>'
+screen.innerHTML = listKharidAkhir 
+input.value = ''
+
+
+    }
+   </script>
+</body>
+</html>
