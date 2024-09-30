@@ -1,0 +1,74 @@
+body {
+    color: white;
+    
+}
+
+.container, .main {
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+
+}
+
+.main {
+background-color: black;
+}
+
+.drawer {
+    position: fixed;
+    width: 300px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    transition: all 500ms;
+
+
+}
+.openedDrawer {
+right: 0;
+transition: all 700ms;
+
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+}
+.bio {
+background-color: rgb(59, 58, 58);
+height: 0;
+overflow: hidden;
+transition:all 600ms;
+ 
+}
+.openBio {
+   padding: 15px;
+    height: 80px;
+    transition:all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
